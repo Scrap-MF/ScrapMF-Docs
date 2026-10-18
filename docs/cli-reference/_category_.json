@@ -1,0 +1,8 @@
+{
+  "label": "CLI reference",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Every command, flag and exit code."
+  }
+}

@@ -1,0 +1,5 @@
+# pnpm 11 build-script policy: explicit allow/deny per package.
+# @swc/core needs its native binding; core-js postinstall is only a donation banner.
+allowBuilds:
+  "@swc/core": true
+  core-js: false
