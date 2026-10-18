@@ -1,7 +1,7 @@
 # ScrapMF — Documentation site
 
 [Docusaurus](https://docusaurus.io/) website documenting the
-[ScrapMF CLI](https://github.com/Scrap-MF/ScrapMF-CLI): a safe, interactive
+[ScrapMF CLI](https://github.com/Scrap-MF/ScrapMF-Rust-CLI): a safe, interactive
 archiver for social media galleries.
 
 **Languages:** English (source, `docs/`) · Español (`i18n/es/`)
@@ -52,13 +52,11 @@ static/img/               # ScrapMF icon + favicon
 
 ## Deployment
 
-GitHub Pages via GitHub Actions on push to `main`
-(`.github/workflows/deploy.yml`). The site is served from a **custom
-domain**: before going live, set the real domain in:
-
-1. `docusaurus.config.ts` → `SITE_URL`
-2. `static/CNAME`
-3. The domain's DNS records pointing to GitHub Pages
+**Not deployed yet.** There is no CI workflow for this site and no domain
+configured. To go live later, create a workflow that runs `pnpm run build`
+on push to `main` and publishes `build/` to GitHub Pages, then set the real
+domain in `docusaurus.config.ts` → `SITE_URL` and `static/CNAME`, plus the
+domain's DNS records pointing at GitHub Pages.
 
 ## Contributing translations
 

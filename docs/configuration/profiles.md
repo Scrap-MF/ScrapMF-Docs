@@ -14,7 +14,30 @@ username = "example_user"
 Accounts inherit everything from `sites/<site>.toml`; only the username is
 required.
 
-{/* TODO: contenido completo (fase 2)
-   - overrides por perfil (rate_limit, archive, templates, extractor)
-   - legacy: sites = ["instagram"] se migra automáticamente a accounts
-   - gestión desde el menú interactivo Configuration → Manage Profiles */}
+## Overrides
+
+Each account can override the site defaults:
+
+| Key | Meaning |
+|---|---|
+| `output_dir` | Account-specific output directory. |
+| `cookies` / `cookies_from_browser` / `cookie_profile` | Account-specific cookie source. |
+| `extra_args` | Account-specific extra arguments. |
+| `rate_limit` | Account-specific throttling. |
+
+A profile can also carry `overrides` with whole `sites/<site>.toml`-shaped
+sections, so one person can have different settings per account.
+
+## Legacy shape
+
+A flat `sites = ["instagram"]` list is still accepted and migrated to
+`accounts` automatically.
+
+## Managing from the menu
+
+**Configuration → Manage Profiles** creates and edits profiles without touching
+the TOML by hand.
+
+## Next
+
+[Cookies](../cookies/profiles)

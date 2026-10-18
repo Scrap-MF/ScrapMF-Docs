@@ -1,0 +1,8 @@
+{
+  "label": "Interactive mode",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Terminal menus, the dashboard and persistent logs."
+  }
+}

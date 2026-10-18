@@ -3,18 +3,59 @@
 scrapmf is distributed as a single static Rust binary. The bundled gallery-dl
 backend (~23 MB) is downloaded separately on first run via `scrapmf setup`.
 
-{/* TODO: contenido completo (fase 2) — verificar comandos exactos contra el repo cli/
-   - cargo binstall scrapmf
-   - AUR / PKGBUILD (cli/PKGBUILD)
-   - install.sh (curl | bash) — documentar qué hace antes de recomendarlo
-   - desde fuente: cargo install --path cli/
-   - requisitos: curl o wget (para setup), sqlite3 o python3 (captura cookies Firefox) */}
-
-## Verify the installation
+## One-liner (Linux / macOS)
 
 ```bash
+curl -fsSL https://raw.githubusercontent.com/Scrap-MF/ScrapMF-Rust-CLI/main/install.sh | sh
+```
+
+Downloads the latest build for your architecture, verifies its SHA-256 checksum
+against the adjacent `.sha256`, and installs to `~/.local/bin`. You can also pass
+a version tag as the first argument:
+
+```bash
+install.sh v1.0.0
+```
+
+Use `--gnu` to pick the dynamically-linked build instead of the default static
+musl one.
+
+## From source
+
+Requires Rust 1.88+:
+
+```bash
+git clone https://github.com/Scrap-MF/ScrapMF-Rust-CLI.git
+cd ScrapMF-Rust-CLI
+cargo install --path .
+```
+
+The binary lands in `~/.cargo/bin`.
+
+## Requirements
+
+scrapmf itself needs nothing beyond the binary. The backend and the browser
+cookie capture have their own needs:
+
+| Need | When |
+|---|---|
+| `curl` or `wget` | `scrapmf setup` downloads the pinned backend |
+| `sqlite3` CLI **or** `python3` | reading a Firefox cookie database |
+| A desktop keyring (`secret-tool` / KWallet) | decrypting Chromium-family cookies |
+
+On Termux, `--cookies-from-browser` cannot work — export `cookies.txt` with a
+browser extension and use `--cookies` instead.
+
+## Verify
+
+```bash
+scrapmf --version
 scrapmf doctor
 ```
 
 `doctor` checks the backend resolution, browser cookie databases and that your
 temp directory is writable.
+
+## Next
+
+[Quick start](./quickstart)

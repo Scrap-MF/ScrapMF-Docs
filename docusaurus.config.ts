@@ -27,7 +27,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   organizationName: 'Scrap-MF',
-  projectName: 'ScrapMF',
+  projectName: 'ScrapMF-Rust-CLI',
 
   onBrokenLinks: 'throw',
 
@@ -53,7 +53,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl: ({locale}) =>
-            `https://github.com/Scrap-MF/ScrapMF/edit/main/${
+            `https://github.com/Scrap-MF/ScrapMF-Rust-CLI/edit/main/${
               locale === 'en' ? '' : `i18n/${locale}/`
             }docusaurus-plugin-content-docs/current/`,
         },
@@ -86,7 +86,7 @@ const config: Config = {
           label: 'Docs',
         },
         {
-          href: 'https://github.com/Scrap-MF/ScrapMF-CLI',
+          href: 'https://github.com/Scrap-MF/ScrapMF-Rust-CLI',
           label: 'GitHub',
           position: 'right',
         },
@@ -121,15 +121,15 @@ const config: Config = {
           items: [
             {
               label: 'ScrapMF-CLI on GitHub',
-              href: 'https://github.com/Scrap-MF/ScrapMF-CLI',
+              href: 'https://github.com/Scrap-MF/ScrapMF-Rust-CLI',
             },
             {
               label: 'Releases',
-              href: 'https://github.com/Scrap-MF/ScrapMF-CLI/releases',
+              href: 'https://github.com/Scrap-MF/ScrapMF-Rust-CLI/releases',
             },
             {
               label: 'Report an issue',
-              href: 'https://github.com/Scrap-MF/ScrapMF-CLI/issues',
+              href: 'https://github.com/Scrap-MF/ScrapMF-Rust-CLI/issues',
             },
           ],
         },
