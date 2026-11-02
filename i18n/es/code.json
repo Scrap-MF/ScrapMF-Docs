@@ -364,5 +364,9 @@
   },
   "homepage.getStarted": {
     "message": "Empezar →"
+  },
+  "homepage.tagline": {
+    "message": "Archivador interactivo y seguro para galerías de redes sociales",
+    "description": "Hero subtitle"
   }
 }
