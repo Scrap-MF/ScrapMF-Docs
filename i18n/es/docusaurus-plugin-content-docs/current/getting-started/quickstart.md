@@ -25,7 +25,7 @@ los tipos de contenido que quieras. También puedes pegar un enlace directo — 
 sitio se detecta a partir de la URL:
 
 ```bash
-scrapmf scrape "https://www.instagram.com/user/" --dry-run
+scrapmf scrape "https://www.instagram.com/sbtn_mf/" --dry-run
 ```
 
 `--dry-run` imprime lo que se descargaría y no descarga nada.

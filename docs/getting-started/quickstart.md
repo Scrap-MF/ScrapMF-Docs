@@ -25,7 +25,7 @@ and the content kinds you want. You can also paste a direct link — the site is
 detected from the URL:
 
 ```bash
-scrapmf scrape "https://www.instagram.com/user/" --dry-run
+scrapmf scrape "https://www.instagram.com/sbtn_mf/" --dry-run
 ```
 
 `--dry-run` prints what would be downloaded and downloads nothing.

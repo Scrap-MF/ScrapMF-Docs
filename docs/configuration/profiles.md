@@ -8,7 +8,7 @@ display_name = "example"
 
 [accounts.instagram]
 [[accounts.instagram]]
-username = "example_user"
+username = "sbtn_mf"
 ```
 
 Accounts inherit everything from `sites/<site>.toml`; only the username is

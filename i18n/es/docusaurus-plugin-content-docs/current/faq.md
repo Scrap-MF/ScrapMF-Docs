@@ -1,3 +1,7 @@
+---
+sidebar_position: 9
+---
+
 # Preguntas frecuentes
 
 ## ¿Es legal?

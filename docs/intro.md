@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # ScrapMF — Safe, interactive archiver for social media galleries
 
 **scrapmf** is a command-line orchestrator for [gallery-dl](https://github.com/mikf/gallery-dl).

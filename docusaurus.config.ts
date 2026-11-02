@@ -52,10 +52,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: ({locale}) =>
-            `https://github.com/Scrap-MF/ScrapMF-Rust-CLI/edit/main/${
-              locale === 'en' ? '' : `i18n/${locale}/`
-            }docusaurus-plugin-content-docs/current/`,
         },
         blog: false,
         theme: {
