@@ -47,11 +47,11 @@
   --ifm-color-primary-lighter: #d95a4e;
   --ifm-color-primary-lightest: #e68a82;
 
-  --ifm-background-color: #2e3440;
-  --ifm-background-surface-color: #3b4252;
-  --ifm-navbar-background-color: #3b4252;
-  --ifm-footer-background-color: #3b4252;
-  --ifm-toc-border-color: #4c566a;
+  --ifm-background-color: #121212;
+  --ifm-background-surface-color: #1e1e1e;
+  --ifm-navbar-background-color: #1e1e1e;
+  --ifm-footer-background-color: #1e1e1e;
+  --ifm-toc-border-color: #3a3a3a;
 
   --ifm-font-color-base: #d8dee9;
   --ifm-heading-color: #eceff4;
