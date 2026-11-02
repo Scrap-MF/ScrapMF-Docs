@@ -1,3 +1,7 @@
+---
+sidebar_label: "🗄️ Archive"
+---
+
 # Archive de descarga
 
 Doctor reporta la memoria de descarga por cuenta bajo `archive/`.

@@ -1,3 +1,7 @@
+---
+sidebar_label: "🍪 Perfiles de cookies"
+---
+
 # Perfiles de cookies
 
 Archivos de credenciales en formato Netscape nombrados en

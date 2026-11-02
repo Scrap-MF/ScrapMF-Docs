@@ -1,3 +1,7 @@
+---
+sidebar_label: "🌐 Gestionar sites"
+---
+
 # Manage Sites
 
 **Manage Sites** edita los archivos por red bajo `~/.config/scrapmf/sites/`.

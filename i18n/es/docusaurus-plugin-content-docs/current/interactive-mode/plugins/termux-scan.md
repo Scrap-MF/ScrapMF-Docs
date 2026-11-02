@@ -1,3 +1,7 @@
+---
+sidebar_label: "📱 Termux scan"
+---
+
 # Termux MediaScan
 
 **Termux MediaScan** ejecuta `termux-media-scan -r <directorio de salida>` una

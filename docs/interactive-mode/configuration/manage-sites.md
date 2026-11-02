@@ -1,3 +1,7 @@
+---
+sidebar_label: "🌐 Manage sites"
+---
+
 # Manage Sites
 
 **Manage Sites** edits the per-network files under `~/.config/scrapmf/sites/`.

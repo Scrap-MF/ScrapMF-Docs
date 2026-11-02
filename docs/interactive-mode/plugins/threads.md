@@ -1,3 +1,7 @@
+---
+sidebar_label: "🧵 Threads"
+---
+
 # Threads (ThreadstractorMF)
 
 Threads is served by an optional plugin rather than gallery-dl. Enable it from

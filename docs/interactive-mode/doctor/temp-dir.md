@@ -1,3 +1,7 @@
+---
+sidebar_label: "📁 Temp dir"
+---
+
 # Temp dir
 
 Doctor checks that the temp directory is writable by creating and removing a

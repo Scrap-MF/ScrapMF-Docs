@@ -1,3 +1,7 @@
+---
+sidebar_label: "🩺 Descripción general"
+---
+
 # Doctor
 
 **Doctor** es la cuarta entrada del menú principal. Ejecuta una comprobación de

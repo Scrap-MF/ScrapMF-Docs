@@ -1,3 +1,7 @@
+---
+sidebar_label: "🌐 Browsers"
+---
+
 # Browsers (cookies)
 
 Doctor detects browser cookie databases and reports keyring / D-Bus state.

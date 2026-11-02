@@ -1,3 +1,7 @@
+---
+sidebar_label: "📱 Termux scan"
+---
+
 # Termux MediaScan
 
 **Termux MediaScan** runs `termux-media-scan -r <output dir>` once per finished

@@ -1,3 +1,7 @@
+---
+sidebar_label: "📁 Temp dir"
+---
+
 # Temp dir
 
 Doctor comprueba que el directorio temporal sea escribible creando y borrando

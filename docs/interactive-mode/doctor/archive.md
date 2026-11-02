@@ -1,3 +1,7 @@
+---
+sidebar_label: "🗄️ Archive"
+---
+
 # Download archive
 
 Doctor reports the per-account download memory under `archive/`.

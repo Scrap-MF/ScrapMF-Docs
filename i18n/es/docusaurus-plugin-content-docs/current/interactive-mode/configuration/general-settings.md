@@ -1,3 +1,7 @@
+---
+sidebar_label: "🔧 Ajustes generales"
+---
+
 # General settings
 
 **General settings** edita los valores por defecto globales en `config.toml`.

@@ -1,3 +1,7 @@
+---
+sidebar_label: "⚙️ Descripción general"
+---
+
 # Configuración
 
 **Configuration** es la segunda entrada del menú principal. Edita cómo se

@@ -1,3 +1,7 @@
+---
+sidebar_label: "👤 Gestionar perfiles"
+---
+
 # Manage Profiles
 
 **Manage Profiles** crea y edita perfiles sin tocar el TOML a mano. Un perfil

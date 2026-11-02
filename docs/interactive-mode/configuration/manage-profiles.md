@@ -1,3 +1,7 @@
+---
+sidebar_label: "👤 Manage profiles"
+---
+
 # Manage Profiles
 
 **Manage Profiles** creates and edits profiles without touching the TOML by

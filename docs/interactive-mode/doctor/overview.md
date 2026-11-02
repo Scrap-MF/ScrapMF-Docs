@@ -1,3 +1,7 @@
+---
+sidebar_label: "🩺 Overview"
+---
+
 # Doctor
 
 **Doctor** is the fourth entry of the main menu. It runs a health check over

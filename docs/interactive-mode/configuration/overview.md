@@ -1,3 +1,7 @@
+---
+sidebar_label: "⚙️ Overview"
+---
+
 # Configuration
 
 **Configuration** is the second entry of the main menu. It edits how scrapmf

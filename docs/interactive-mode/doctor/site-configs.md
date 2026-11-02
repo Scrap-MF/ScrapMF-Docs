@@ -1,3 +1,7 @@
+---
+sidebar_label: "📄 Site configs"
+---
+
 # Site configs
 
 Doctor parses every `sites/*.toml` and reports the broken ones.

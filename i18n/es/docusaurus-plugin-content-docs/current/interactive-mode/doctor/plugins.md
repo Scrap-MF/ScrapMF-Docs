@@ -1,3 +1,7 @@
+---
+sidebar_label: "🔌 Plugins"
+---
+
 # Plugins
 
 Doctor reporta el estado de ambos plugins registrados.

@@ -1,3 +1,7 @@
+---
+sidebar_label: "🍪 Cookie profiles"
+---
+
 # Cookie profiles
 
 Named, shareable Netscape-format credential files at

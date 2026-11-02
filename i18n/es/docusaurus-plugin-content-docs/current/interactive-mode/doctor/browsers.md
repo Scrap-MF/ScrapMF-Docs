@@ -1,3 +1,7 @@
+---
+sidebar_label: "🌐 Navegadores"
+---
+
 # Navegadores (cookies)
 
 Doctor detecta las bases de datos de cookies del navegador y reporta el estado

@@ -1,3 +1,7 @@
+---
+sidebar_label: "📦 Backend"
+---
+
 # Backend (gallery-dl)
 
 Doctor resolves the gallery-dl backend and reports its version and source.
