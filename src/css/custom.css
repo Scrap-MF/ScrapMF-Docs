@@ -72,8 +72,9 @@
 }
 
 /* Force footer to match navbar/header background (override Docusaurus footer--dark). */
-.footer--dark,
-.theme-layout-footer.footer--dark {
-  --ifm-footer-background-color: #1e1e1e;
-  background-color: #1e1e1e;
+[data-theme='dark'] .theme-layout-footer,
+[data-theme='dark'] .footer--dark,
+[data-theme='dark'] .theme-layout-footer.footer--dark {
+  --ifm-footer-background-color: #1e1e1e !important;
+  background-color: #1e1e1e !important;
 }
