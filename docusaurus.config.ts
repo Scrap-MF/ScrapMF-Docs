@@ -23,7 +23,7 @@ const config: Config = {
   // Set the production url of your site here
   url: SITE_URL,
   // Custom domain => served from the root path
-  baseUrl: '/scrapmf-docs/',
+  baseUrl: '/ScrapMF-Docs/',
 
   // GitHub pages deployment config.
   organizationName: 'Scrap-MF',
