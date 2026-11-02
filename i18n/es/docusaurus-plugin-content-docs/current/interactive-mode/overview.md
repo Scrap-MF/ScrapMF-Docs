@@ -2,13 +2,13 @@
 
 Ejecutar `scrapmf` sin argumentos en una TTY abre el menú principal:
 
-- **[Download content](./download-content/overview)** → Perfil guardado · URL(s) ·
+- **[📥 Download content](./download-content/overview)** → Perfil guardado · URL(s) ·
   Quick scrape · Tasks
-- **[Configuration](./configuration/overview)** → perfiles de cookies, sites,
+- **[⚙️ Configuration](./configuration/overview)** → perfiles de cookies, sites,
   perfiles, ajustes generales
-- **[Plugins](./plugins/overview)** → activar o desactivar extras opcionales
+- **[🔌 Plugins](./plugins/overview)** → activar o desactivar extras opcionales
   (Threads, Termux scan)
-- **[Doctor](./doctor/overview)** → comprobación de backend y sistema
+- **[🩺 Doctor](./doctor/overview)** → comprobación de backend y sistema
 - **Exit**
 
 ## Download content

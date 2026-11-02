@@ -2,13 +2,13 @@
 
 Running `scrapmf` with no arguments on a TTY opens the main menu:
 
-- **[Download content](./download-content/overview)** → Saved profile · URL(s) · Quick
+- **[📥 Download content](./download-content/overview)** → Saved profile · URL(s) · Quick
   scrape · Tasks
-- **[Configuration](./configuration/overview)** → cookie profiles, sites, profiles,
+- **[⚙️ Configuration](./configuration/overview)** → cookie profiles, sites, profiles,
   general settings
-- **[Plugins](./plugins/overview)** → enable or disable optional extras (Threads,
+- **[🔌 Plugins](./plugins/overview)** → enable or disable optional extras (Threads,
   Termux scan)
-- **[Doctor](./doctor/overview)** → backend & system check
+- **[🩺 Doctor](./doctor/overview)** → backend & system check
 - **Exit**
 
 ## Download content
