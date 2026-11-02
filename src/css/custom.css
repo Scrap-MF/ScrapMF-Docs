@@ -5,13 +5,13 @@
 
 /* Light mode — inverted Nord (snow storm backgrounds, polar-night text). */
 :root {
-  --ifm-color-primary: #b55f68;
-  --ifm-color-primary-dark: #a04e57;
-  --ifm-color-primary-darker: #92454d;
-  --ifm-color-primary-darkest: #75363d;
-  --ifm-color-primary-light: #c27a82;
-  --ifm-color-primary-lighter: #ca8c93;
-  --ifm-color-primary-lightest: #deb3b8;
+  --ifm-color-primary: #8b1a1a;
+  --ifm-color-primary-dark: #7a1616;
+  --ifm-color-primary-darker: #691313;
+  --ifm-color-primary-darkest: #4d0e0e;
+  --ifm-color-primary-light: #a33a3a;
+  --ifm-color-primary-lighter: #b55a5a;
+  --ifm-color-primary-lightest: #d08a8a;
 
   --ifm-background-color: #eceff4;
   --ifm-background-surface-color: #e5e9f0;
@@ -21,17 +21,17 @@
 
   --ifm-font-color-base: #2e3440;
   --ifm-heading-color: #2e3440;
-  --ifm-link-color: #b55f68;
-  --ifm-link-hover-color: #a04e57;
-  --ifm-menu-color-active: #b55f68;
-  --ifm-navbar-link-active-color: #b55f68;
-  --ifm-tabs-color-active: #b55f68;
-  --ifm-pagination-color-active: #b55f68;
-  --ifm-breadcrumb-color-active: #b55f68;
-  --ifm-toc-link-color: #b55f68;
-  --ifm-toc-border-color: #b55f68;
-  --ifm-table-border-color: #b55f68;
-  --ifm-color-info: #b55f68;
+  --ifm-link-color: #8b1a1a;
+  --ifm-link-hover-color: #7a1616;
+  --ifm-menu-color-active: #8b1a1a;
+  --ifm-navbar-link-active-color: #8b1a1a;
+  --ifm-tabs-color-active: #8b1a1a;
+  --ifm-pagination-color-active: #8b1a1a;
+  --ifm-breadcrumb-color-active: #8b1a1a;
+  --ifm-toc-link-color: #8b1a1a;
+  --ifm-toc-border-color: #8b1a1a;
+  --ifm-table-border-color: #8b1a1a;
+  --ifm-color-info: #8b1a1a;
 
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
@@ -39,13 +39,13 @@
 
 /* Dark mode — Nord polar night backgrounds, frost/red accents. */
 [data-theme='dark'] {
-  --ifm-color-primary: #b55f68;
-  --ifm-color-primary-dark: #a04e57;
-  --ifm-color-primary-darker: #92454d;
-  --ifm-color-primary-darkest: #75363d;
-  --ifm-color-primary-light: #c27a82;
-  --ifm-color-primary-lighter: #ca8c93;
-  --ifm-color-primary-lightest: #deb3b8;
+  --ifm-color-primary: #c0392b;
+  --ifm-color-primary-dark: #a93226;
+  --ifm-color-primary-darker: #922b21;
+  --ifm-color-primary-darkest: #7b241c;
+  --ifm-color-primary-light: #cb4335;
+  --ifm-color-primary-lighter: #d95a4e;
+  --ifm-color-primary-lightest: #e68a82;
 
   --ifm-background-color: #2e3440;
   --ifm-background-surface-color: #3b4252;
@@ -55,17 +55,17 @@
 
   --ifm-font-color-base: #d8dee9;
   --ifm-heading-color: #eceff4;
-  --ifm-link-color: #b55f68;
-  --ifm-link-hover-color: #c27a82;
-  --ifm-menu-color-active: #b55f68;
-  --ifm-navbar-link-active-color: #b55f68;
-  --ifm-tabs-color-active: #b55f68;
-  --ifm-pagination-color-active: #b55f68;
-  --ifm-breadcrumb-color-active: #b55f68;
-  --ifm-toc-link-color: #b55f68;
-  --ifm-toc-border-color: #b55f68;
-  --ifm-table-border-color: #b55f68;
-  --ifm-color-info: #b55f68;
+  --ifm-link-color: #c0392b;
+  --ifm-link-hover-color: #cb4335;
+  --ifm-menu-color-active: #c0392b;
+  --ifm-navbar-link-active-color: #c0392b;
+  --ifm-tabs-color-active: #c0392b;
+  --ifm-pagination-color-active: #c0392b;
+  --ifm-breadcrumb-color-active: #c0392b;
+  --ifm-toc-link-color: #c0392b;
+  --ifm-toc-border-color: #c0392b;
+  --ifm-table-border-color: #c0392b;
+  --ifm-color-info: #c0392b;
 
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.08);

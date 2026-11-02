@@ -2,17 +2,19 @@
 sidebar_label: "🌐 Flujos por site"
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Flujos por site
 
 Algunas redes necesitan más de una pasada o manejo especial. scrapmf los
 ejecuta automáticamente.
 
-## <img src="/img/networks/x.svg" alt="X" width="24" style={{verticalAlign:"middle",marginRight:"8px"}} /> Twitter / X
+## <img src={useBaseUrl('/img/networks/x.svg')} alt="X" width="24" style={{verticalAlign:"middle",marginRight:"8px"}} /> Twitter / X
 
 Ejecuta dos pasadas — **photos**, luego **videos** — para que cada una caiga en
 su propia carpeta en lugar de un árbol de media mezclado.
 
-## <img src="/img/networks/instagram.svg" alt="Instagram" width="24" style={{verticalAlign:"middle",marginRight:"8px"}} /> Instagram
+## <img src={useBaseUrl('/img/networks/instagram.svg')} alt="Instagram" width="24" style={{verticalAlign:"middle",marginRight:"8px"}} /> Instagram
 
 Separa **posts** y **reels** para que los reels se descarguen exactamente una
 vez en lugar de traerse dos veces por extractores solapados. También soporta:
@@ -21,24 +23,24 @@ vez en lugar de traerse dos veces por extractores solapados. También soporta:
 - **Instagram_id**, que resuelve el id numérico de la cuenta vía la vista
   `/info/` (no se escriben archivos de media).
 
-## <img src="/img/networks/threads.svg" alt="Threads" width="24" style={{verticalAlign:"middle",marginRight:"8px"}} /> Threads
+## <img src={useBaseUrl('/img/networks/threads.svg')} alt="Threads" width="24" style={{verticalAlign:"middle",marginRight:"8px"}} /> Threads
 
 Servido por el plugin opcional **Threadstractor** en lugar de gallery-dl.
 Actívalo desde el menú **Plugins** primero; de lo contrario las URLs de
 threads fallan con un mensaje accionable.
 
-## <img src="/img/networks/facebook.svg" alt="Facebook" width="24" style={{verticalAlign:"middle",marginRight:"8px"}} /> Facebook
+## <img src={useBaseUrl('/img/networks/facebook.svg')} alt="Facebook" width="24" style={{verticalAlign:"middle",marginRight:"8px"}} /> Facebook
 
 Distingue **Posts**, **Albums** y **Videos**; maneja URLs de perfil y la forma
 `profile.php?id=`.
 
-## <img src="/img/networks/tiktok.svg" alt="TikTok" width="24" style={{verticalAlign:"middle",marginRight:"8px"}} /> TikTok
+## <img src={useBaseUrl('/img/networks/tiktok.svg')} alt="TikTok" width="24" style={{verticalAlign:"middle",marginRight:"8px"}} /> TikTok
 
 Scrape estándar en una sola pasada; TikTok reporta los posts perdidos por
 challenges de JavaScript para que sepas cuándo refrescar la sesión del
 navegador.
 
-## <img src="/img/networks/vsco.svg" alt="VSCO" width="24" style={{verticalAlign:"middle",marginRight:"8px"}} /> VSCO
+## <img src={useBaseUrl('/img/networks/vsco.svg')} alt="VSCO" width="24" style={{verticalAlign:"middle",marginRight:"8px"}} /> VSCO
 
 Scrape estándar en una sola pasada.
 

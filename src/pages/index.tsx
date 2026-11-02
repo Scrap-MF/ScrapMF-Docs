@@ -2,6 +2,7 @@ import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import Translate, {translate} from '@docusaurus/Translate';
@@ -93,11 +94,12 @@ function Feature({title, emoji, description}: FeatureItem) {
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
+  const logoUrl = useBaseUrl('/img/scrapmf-logo-small.png');
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <img
-          src="/img/scrapmf-logo-small.png"
+          src={logoUrl}
           alt="ScrapMF logo"
           className={styles.heroLogo}
         />
@@ -111,7 +113,6 @@ function HomepageHeader() {
             to="/docs/intro">
             <Translate id="homepage.getStarted">Get started →</Translate>
           </Link>
-          <code className={styles.installCmd}>cargo install scrapmf</code>
         </div>
       </div>
     </header>
