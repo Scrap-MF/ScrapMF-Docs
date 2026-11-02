@@ -2,17 +2,25 @@
 
 Running `scrapmf` with no arguments on a TTY opens the main menu:
 
-- **Download content** → Saved profile · URL(s) · Quick scrape
-- **Configuration** → cookie profiles, sites, profiles, general settings
-- **Plugins** → enable or disable optional extras (Threads, Termux scan)
-- **Doctor** → backend & system check
+- **[Download content](./download-content/overview)** → Saved profile · URL(s) · Quick
+  scrape · Tasks
+- **[Configuration](./configuration/overview)** → cookie profiles, sites, profiles,
+  general settings
+- **[Plugins](./plugins/overview)** → enable or disable optional extras (Threads,
+  Termux scan)
+- **[Doctor](./doctor/overview)** → backend & system check
 - **Exit**
 
-## The Scrape submenu
+## Download content
 
-- **Saved profile** — pick a profile and the accounts it covers.
-- **URL(s)** — paste one or more URLs; the site is auto-detected per URL.
-- **Quick scrape** — flatten the directory tree to `<account>/<content>`.
+The **Download content** entry is documented in its own section:
+
+- [Overview](./download-content/overview) — the three scrape paths and when to use each
+- [Saved profile](./download-content/saved-profile) — reusable batches
+- [URL(s)](./download-content/urls) — paste links, auto-detect the site
+- [Quick scrape](./download-content/quick-scrape) — flat `<account>/<content>` tree
+- [Site-specific flows](./download-content/site-flows) — Twitter/X, Instagram,
+  Threads, Facebook, …
 
 ## The dashboard
 
@@ -26,12 +34,6 @@ into a persistent log:
 ```
 
 The 20 newest logs are kept automatically; older ones are pruned.
-
-## Site-specific flows
-
-- **Twitter/X** runs two passes (photos, then videos) so each lands in its own
-  folder.
-- **Instagram** separates posts and reels so reels are downloaded exactly once.
 
 ## Next
 

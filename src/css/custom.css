@@ -1,30 +1,72 @@
 /**
  * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * bundles Infima by default.
  */
 
-/* You can override the default Infima variables here. */
+/* Light mode — inverted Nord (snow storm backgrounds, polar-night text). */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #b55f68;
+  --ifm-color-primary-dark: #a04e57;
+  --ifm-color-primary-darker: #92454d;
+  --ifm-color-primary-darkest: #75363d;
+  --ifm-color-primary-light: #c27a82;
+  --ifm-color-primary-lighter: #ca8c93;
+  --ifm-color-primary-lightest: #deb3b8;
+
+  --ifm-background-color: #eceff4;
+  --ifm-background-surface-color: #e5e9f0;
+  --ifm-navbar-background-color: #e5e9f0;
+  --ifm-footer-background-color: #d8dee9;
+  --ifm-toc-border-color: #d8dee9;
+
+  --ifm-font-color-base: #2e3440;
+  --ifm-heading-color: #2e3440;
+  --ifm-link-color: #b55f68;
+  --ifm-link-hover-color: #a04e57;
+  --ifm-menu-color-active: #b55f68;
+  --ifm-navbar-link-active-color: #b55f68;
+  --ifm-tabs-color-active: #b55f68;
+  --ifm-pagination-color-active: #b55f68;
+  --ifm-breadcrumb-color-active: #b55f68;
+  --ifm-toc-link-color: #b55f68;
+  --ifm-toc-border-color: #b55f68;
+  --ifm-table-border-color: #b55f68;
+  --ifm-color-info: #b55f68;
+
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark mode — Nord polar night backgrounds, frost/red accents. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #b55f68;
+  --ifm-color-primary-dark: #a04e57;
+  --ifm-color-primary-darker: #92454d;
+  --ifm-color-primary-darkest: #75363d;
+  --ifm-color-primary-light: #c27a82;
+  --ifm-color-primary-lighter: #ca8c93;
+  --ifm-color-primary-lightest: #deb3b8;
+
+  --ifm-background-color: #2e3440;
+  --ifm-background-surface-color: #3b4252;
+  --ifm-navbar-background-color: #3b4252;
+  --ifm-footer-background-color: #3b4252;
+  --ifm-toc-border-color: #4c566a;
+
+  --ifm-font-color-base: #d8dee9;
+  --ifm-heading-color: #eceff4;
+  --ifm-link-color: #b55f68;
+  --ifm-link-hover-color: #c27a82;
+  --ifm-menu-color-active: #b55f68;
+  --ifm-navbar-link-active-color: #b55f68;
+  --ifm-tabs-color-active: #b55f68;
+  --ifm-pagination-color-active: #b55f68;
+  --ifm-breadcrumb-color-active: #b55f68;
+  --ifm-toc-link-color: #b55f68;
+  --ifm-toc-border-color: #b55f68;
+  --ifm-table-border-color: #b55f68;
+  --ifm-color-info: #b55f68;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.08);
 }

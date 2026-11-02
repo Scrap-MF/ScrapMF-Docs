@@ -20,8 +20,42 @@ it later with one click.
 ## Manual import
 
 Paste a Netscape `cookies.txt` you exported from a browser (for example with
-the *Get cookies.txt LOCALLY* extension) and scrapmf validates and stores it
-for you.
+the *Get cookies.txt LOCALLY* extension, or the companion **ElDevoraCucas**
+extension on Android) and scrapmf validates and stores it for you.
+
+On Android/Termux, use the **ElDevoraCucas** Firefox extension to export
+`cookies.txt` and follow the [Firefox extension](./firefox-extension) guide.
+
+
+## Android / Termux
+
+`--cookies-from-browser` cannot work in Termux: browser cookie databases live in
+app-private storage that Termux cannot read without root. Export a Netscape
+`cookies.txt` instead and pass it with `--cookies`.
+
+The companion Firefox extension **ElDevoraCucas**
+([Scrap-MF/ElDevoraCucasMF](https://github.com/Scrap-MF/ElDevoraCucasMF)) exports
+a `cookies.txt` for Instagram, TikTok, Twitter/X, VSCO, Threads and Facebook
+straight from a logged-in Firefox session:
+
+1. Install it in **Firefox for Android** (Firefox Nightly with
+   `xpinstall.signatures.required` set to `false`, or from AMO once listed).
+2. Log in to the sites you want inside Firefox.
+3. Open the extension popup, tick the networks, and download `cookies.txt`.
+4. Copy the file into Termux's config dir:
+
+   ```bash
+   termux-setup-storage   # once per fresh install
+   cp ~/storage/downloads/cookies.txt ~/.config/scrapmf/cookies/android.txt
+   scrapmf scrape "https://www.instagram.com/sbtn_mf/" \
+     --cookies ~/.config/scrapmf/cookies/android.txt
+   ```
+
+Firefox writes downloads to `~/storage/downloads`, which Termux reaches through
+the symlink that `termux-setup-storage` creates. scrapmf reads the file you hand
+it and does not refresh it — re-export when the session expires.
+
+> Cookie files are account credentials. Never commit or share them.
 
 ## Precedence
 

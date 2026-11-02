@@ -1,0 +1,38 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Project": {
+    "message": "Project",
+    "description": "The title of the footer links column with title=Project in the footer"
+  },
+  "link.item.label.Getting started": {
+    "message": "Getting started",
+    "description": "The label of footer link with label=Getting started linking to /docs/intro"
+  },
+  "link.item.label.CLI reference": {
+    "message": "CLI reference",
+    "description": "The label of footer link with label=CLI reference linking to /docs/cli-reference/scrape"
+  },
+  "link.item.label.Configuration": {
+    "message": "Configuration",
+    "description": "The label of footer link with label=Configuration linking to /docs/configuration/overview"
+  },
+  "link.item.label.ScrapMF-CLI on GitHub": {
+    "message": "ScrapMF-CLI on GitHub",
+    "description": "The label of footer link with label=ScrapMF-CLI on GitHub linking to https://github.com/Scrap-MF/ScrapMF-Rust-CLI"
+  },
+  "link.item.label.Releases": {
+    "message": "Releases",
+    "description": "The label of footer link with label=Releases linking to https://github.com/Scrap-MF/ScrapMF-Rust-CLI/releases"
+  },
+  "link.item.label.Report an issue": {
+    "message": "Report an issue",
+    "description": "The label of footer link with label=Report an issue linking to https://github.com/Scrap-MF/ScrapMF-Rust-CLI/issues"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 Scrap-MF. GPL-3.0. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

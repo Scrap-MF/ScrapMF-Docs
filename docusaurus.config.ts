@@ -8,7 +8,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 //   1. `url` (abajo)
 //   2. static/CNAME
 //   3. DNS del proveedor del dominio (CNAME -> Scrap-MF.github.io o registros A de Pages)
-const SITE_URL = 'https://docs.scrapmf.example';
+const SITE_URL = 'https://Scrap-MF.github.io';
 
 const config: Config = {
   title: 'ScrapMF',
@@ -23,7 +23,7 @@ const config: Config = {
   // Set the production url of your site here
   url: SITE_URL,
   // Custom domain => served from the root path
-  baseUrl: '/',
+  baseUrl: '/scrapmf-docs/',
 
   // GitHub pages deployment config.
   organizationName: 'Scrap-MF',
@@ -76,7 +76,7 @@ const config: Config = {
       title: 'ScrapMF',
       logo: {
         alt: 'ScrapMF',
-        src: 'img/scrapmf-logo.ico',
+        src: 'img/scrapmf-logo-small.png',
       },
       items: [
         {

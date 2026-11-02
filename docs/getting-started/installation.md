@@ -32,6 +32,11 @@ cargo install --path .
 
 The binary lands in `~/.cargo/bin`.
 
+## Windows
+
+scrapmf has no native Windows binary. Install it inside WSL using the Linux
+one-liner above; from there the rest of this guide applies unchanged.
+
 ## Requirements
 
 scrapmf itself needs nothing beyond the binary. The backend and the browser
@@ -43,8 +48,9 @@ cookie capture have their own needs:
 | `sqlite3` CLI **or** `python3` | reading a Firefox cookie database |
 | A desktop keyring (`secret-tool` / KWallet) | decrypting Chromium-family cookies |
 
-On Termux, `--cookies-from-browser` cannot work — export `cookies.txt` with a
-browser extension and use `--cookies` instead.
+On Termux, `--cookies-from-browser` cannot work — export `cookies.txt` with the
+companion Firefox extension **ElDevoraCucas**
+(https://github.com/Scrap-MF/ElDevoraCucasMF) and use `--cookies` instead.
 
 ## Verify
 

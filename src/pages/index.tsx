@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
+import Translate, {translate} from '@docusaurus/Translate';
 
 import styles from './index.module.css';
 
@@ -15,63 +16,63 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Pinned backend',
+    title: translate({id: 'homepage.feature.pinned-backend.title', message: 'Pinned backend'}),
     emoji: '📌',
     description: (
-      <>
+      <Translate id="homepage.feature.pinned-backend.desc">
         Ships its own tested gallery-dl build, verified against official
         checksums. Upstream changes never break your runs mid-archive.
-      </>
+      </Translate>
     ),
   },
   {
-    title: 'Interactive by default',
+    title: translate({id: 'homepage.feature.interactive.title', message: 'Interactive by default'}),
     emoji: '🧭',
     description: (
-      <>
+      <Translate id="homepage.feature.interactive.desc">
         Pick a profile, a network and content types from menus. Or paste a
         URL — site configuration is auto-matched by pattern.
-      </>
+      </Translate>
     ),
   },
   {
-    title: 'Session aware',
+    title: translate({id: 'homepage.feature.session.title', message: 'Session aware'}),
     emoji: '🍪',
     description: (
-      <>
+      <Translate id="homepage.feature.session.desc">
         Named cookie profiles captured straight from Firefox or Chromium,
-        stored <code>0600</code>, refreshed in one click.
-      </>
+        stored 0600, refreshed in one click.
+      </Translate>
     ),
   },
   {
-    title: 'Integrity checked',
+    title: translate({id: 'homepage.feature.integrity.title', message: 'Integrity checked'}),
     emoji: '🔍',
     description: (
-      <>
+      <Translate id="homepage.feature.integrity.desc">
         Every run verifies downloads: truncated videos (missing moov atom),
         orphaned .part files and HEVC codec warnings.
-      </>
+      </Translate>
     ),
   },
   {
-    title: 'Safe by design',
+    title: translate({id: 'homepage.feature.safe.title', message: 'Safe by design'}),
     emoji: '🛡️',
     description: (
-      <>
+      <Translate id="homepage.feature.safe.desc">
         URL validation, protected system paths, allow-listed backend flags,
         atomic config writes with backups. No unsafe code anywhere.
-      </>
+      </Translate>
     ),
   },
   {
-    title: 'Live dashboard',
+    title: translate({id: 'homepage.feature.dashboard.title', message: 'Live dashboard'}),
     emoji: '📊',
     description: (
-      <>
+      <Translate id="homepage.feature.dashboard.desc">
         Full-screen TUI with per-job progress and instant Ctrl-C. Output is
         mirrored to persistent logs you can always inspect.
-      </>
+      </Translate>
     ),
   },
 ];
@@ -108,7 +109,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Get started →
+            <Translate id="homepage.getStarted">Get started →</Translate>
           </Link>
           <code className={styles.installCmd}>cargo install scrapmf</code>
         </div>

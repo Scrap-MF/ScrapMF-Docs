@@ -2,7 +2,7 @@
 
 scrapmf never uses your system gallery-dl by default. It downloads its own
 copy once (`scrapmf setup`) into `$XDG_DATA_HOME/scrapmf/bin/` and freezes it at
-a tested version — currently **gallery-dl v1.32.17**.
+a tested version — currently **gallery-dl v1.32.19**.
 
 ## Resolution order
 

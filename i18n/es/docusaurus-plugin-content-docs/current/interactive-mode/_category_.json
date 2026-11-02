@@ -1,0 +1,8 @@
+{
+  "label": "Modo interactivo",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Menús de terminal, dashboard y logs persistentes."
+  }
+}

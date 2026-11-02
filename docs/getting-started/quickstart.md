@@ -8,7 +8,7 @@ From zero to a downloaded profile in two minutes.
 scrapmf setup
 ```
 
-This downloads the pinned gallery-dl build (currently **v1.32.17**) into
+This downloads the pinned gallery-dl build (currently **v1.32.19**) into
 `~/.local/share/scrapmf/bin/` and verifies its SHA-256 against the official
 checksums. It never updates on its own.
 

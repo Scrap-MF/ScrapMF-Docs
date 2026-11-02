@@ -1,0 +1,9 @@
+{
+  "label": "📥 Download content",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "The three scrape paths, the dashboard and site-specific flows.",
+    "slug": "/download-content"
+  }
+}

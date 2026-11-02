@@ -30,7 +30,7 @@ scrapmf setup --yes    # skip the prompt (required for scripts)
 ```
 
 The download (~23 MB) is verified against the official `SHA256SUMS` of
-gallery-dl **v1.32.17** before it is moved into place. It never auto-updates —
+gallery-dl **v1.32.19** before it is moved into place. It never auto-updates —
 new pins ship with scrapmf releases.
 
 On non-x86_64 architectures there is no standalone upstream build; `setup`

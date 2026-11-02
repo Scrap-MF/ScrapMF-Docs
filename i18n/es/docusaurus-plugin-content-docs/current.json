@@ -1,0 +1,94 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Getting started": {
+    "message": "Primeros pasos",
+    "description": "The label for category 'Getting started' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Getting started.link.generated-index.description": {
+    "message": "Instala scrapmf y ejecuta tu primer scrape.",
+    "description": "The generated-index page description for category 'Getting started' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.CLI reference": {
+    "message": "Referencia CLI",
+    "description": "The label for category 'CLI reference' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.CLI reference.link.generated-index.description": {
+    "message": "Cada comando, flag y código de salida.",
+    "description": "The generated-index page description for category 'CLI reference' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Configuration": {
+    "message": "Configuración",
+    "description": "The label for category 'Configuration' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Configuration.link.generated-index.description": {
+    "message": "config.toml, sites/, profiles/ y cómo se sobrescriben los valores.",
+    "description": "The generated-index page description for category 'Configuration' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Interactive mode": {
+    "message": "Modo interactivo",
+    "description": "The label for category 'Interactive mode' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Interactive mode.link.generated-index.description": {
+    "message": "Menús de terminal, dashboard y logs persistentes.",
+    "description": "The generated-index page description for category 'Interactive mode' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Download content": {
+    "message": "Descargar contenido",
+    "description": "The label for category 'Download content' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Download content.link.generated-index.description": {
+    "message": "Las tres vías de scrape, el dashboard y los flujos por site.",
+    "description": "The generated-index page description for category 'Download content' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.interactive-configuration": {
+    "message": "Configuración",
+    "description": "The label for category 'Configuration' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.interactive-configuration.link.generated-index.description": {
+    "message": "Perfiles de cookies, sites, perfiles y ajustes generales.",
+    "description": "The generated-index page description for category 'Configuration' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Plugins": {
+    "message": "Plugins",
+    "description": "The label for category 'Plugins' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Plugins.link.generated-index.description": {
+    "message": "Extras opcionales: backend Threads y Termux MediaScan.",
+    "description": "The generated-index page description for category 'Plugins' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Doctor": {
+    "message": "Doctor",
+    "description": "The label for category 'Doctor' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Doctor.link.generated-index.description": {
+    "message": "Comprobación de salud de backends, plugins, cookies y sistema.",
+    "description": "The generated-index page description for category 'Doctor' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Cookies": {
+    "message": "Cookies",
+    "description": "The label for category 'Cookies' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Cookies.link.generated-index.description": {
+    "message": "Perfiles de cookies de navegador nombrados y cómo tienen precedencia.",
+    "description": "The generated-index page description for category 'Cookies' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Backend": {
+    "message": "Backend",
+    "description": "The label for category 'Backend' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Backend.link.generated-index.description": {
+    "message": "La copia pinneada de gallery-dl que scrapmf gestiona por ti.",
+    "description": "The generated-index page description for category 'Backend' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Troubleshooting": {
+    "message": "Solución de problemas",
+    "description": "The label for category 'Troubleshooting' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Troubleshooting.link.generated-index.description": {
+    "message": "Problemas comunes y cómo resolverlos.",
+    "description": "The generated-index page description for category 'Troubleshooting' in sidebar 'docs'"
+  }
+}

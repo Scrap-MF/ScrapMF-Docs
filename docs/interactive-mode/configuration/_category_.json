@@ -1,0 +1,9 @@
+{
+  "label": "Configuration",
+  "key": "interactive-configuration",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Cookie profiles, sites, profiles and general settings."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Doctor",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Health check for backends, plugins, cookies and system."
+  }
+}
