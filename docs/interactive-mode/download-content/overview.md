@@ -2,7 +2,7 @@
 sidebar_label: "📥 Overview"
 ---
 
-# Download content
+# 📥 Download content
 
 **Download content** is the first entry of the main menu. It runs scrapes
 against the accounts or URLs you choose and writes the results under your

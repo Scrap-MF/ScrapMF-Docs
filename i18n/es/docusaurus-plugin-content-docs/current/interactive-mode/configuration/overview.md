@@ -2,7 +2,7 @@
 sidebar_label: "⚙️ Descripción general"
 ---
 
-# Configuración
+# ⚙️ Configuración
 
 **Configuration** es la segunda entrada del menú principal. Edita cómo se
 comporta scrapmf: sesiones de cookies, opciones por site, perfiles y valores

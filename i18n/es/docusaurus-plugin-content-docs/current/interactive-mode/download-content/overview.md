@@ -2,7 +2,7 @@
 sidebar_label: "📥 Resumen"
 ---
 
-# Download content
+# 📥 Download content
 
 **Download content** es la primera entrada del menú principal. Ejecuta scrapes
 contra las cuentas o URLs que elijas y escribe los resultados bajo tu

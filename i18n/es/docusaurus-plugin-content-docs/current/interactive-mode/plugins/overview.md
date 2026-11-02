@@ -2,7 +2,7 @@
 sidebar_label: "🔌 Descripción general"
 ---
 
-# Plugins
+# 🔌 Plugins
 
 **Plugins** es la tercera entrada del menú principal. Gestiona extras opcionales
 que scrapmf puede instalar en su propio entorno gestionado (nunca tu Python del

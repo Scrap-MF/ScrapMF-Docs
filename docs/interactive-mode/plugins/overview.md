@@ -2,7 +2,7 @@
 sidebar_label: "🔌 Overview"
 ---
 
-# Plugins
+# 🔌 Plugins
 
 **Plugins** is the third entry of the main menu. It manages optional extras
 that scrapmf can install into its own managed environment (never your system

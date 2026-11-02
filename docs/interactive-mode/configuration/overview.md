@@ -2,7 +2,7 @@
 sidebar_label: "⚙️ Overview"
 ---
 
-# Configuration
+# ⚙️ Configuration
 
 **Configuration** is the second entry of the main menu. It edits how scrapmf
 behaves: cookie sessions, per-site options, profiles and global defaults.

@@ -2,7 +2,7 @@
 sidebar_label: "🩺 Descripción general"
 ---
 
-# Doctor
+# 🩺 Doctor
 
 **Doctor** es la cuarta entrada del menú principal. Ejecuta una comprobación de
 salud sobre el backend, los plugins, las cookies y el sistema, y reporta todo en
