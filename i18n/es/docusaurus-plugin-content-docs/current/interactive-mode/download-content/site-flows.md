@@ -36,9 +36,13 @@ Distingue **Posts**, **Albums** y **Videos**; maneja URLs de perfil y la forma
 
 ## <img src={useBaseUrl('/img/networks/tiktok.svg')} alt="TikTok" width="24" style={{verticalAlign:"middle",marginRight:"8px"}} /> TikTok
 
-Scrape estándar en una sola pasada; TikTok reporta los posts perdidos por
-challenges de JavaScript para que sepas cuándo refrescar la sesión del
-navegador.
+TikTok se sirve mediante el plugin **Tikstractormf** en lugar de gallery-dl.
+Actívalo desde **Plugins → Tikstractormf**; sin él las superficies de TikTok
+quedan ocultas.
+
+Tipos de contenido: `All · Videos · Photos · Stories · Profile`. TikTok reporta
+los posts perdidos por challenges de JavaScript para que sepas cuándo refrescar
+la sesión del navegador.
 
 ## <img src={useBaseUrl('/img/networks/vsco.svg')} alt="VSCO" width="24" style={{verticalAlign:"middle",marginRight:"8px"}} /> VSCO
 

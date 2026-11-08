@@ -8,10 +8,12 @@ sidebar_label: "🔌 Overview"
 that scrapmf can install into its own managed environment (never your system
 Python).
 
-The registry currently has two plugins:
+The registry currently has three plugins:
 
 - **[Threads (ThreadstractorMF)](./threads)** — a backend for Threads.com /
   Threads.net accounts.
+- **[TikTok (Tikstractormf)](./tiktok)** — a backend for TikTok accounts,
+  including **Stories** when enabled.
 - **[Termux MediaScan](./termux-scan)** — indexes finished downloads into the
   Android Gallery on Termux.
 

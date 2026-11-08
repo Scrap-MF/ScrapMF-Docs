@@ -33,7 +33,7 @@ sorpresa de upstream.
 | Red | Tipos de contenido |
 |---|---|
 | Instagram | Todo · Posts · Reels · Highlights · Stories · Perfil |
-| TikTok | Todo · Videos · Fotos · Perfil |
+| TikTok | Todo · Videos · Fotos · Stories · Perfil |
 | Twitter/X | Todo · Media · Perfil |
 | VSCO | Todo · Media · Perfil |
 | Threads | Todo · Fotos · Videos · Perfil |
@@ -41,6 +41,10 @@ sorpresa de upstream.
 
 Threads se sirve mediante un plugin opcional en lugar de gallery-dl. Actívalo
 desde el menú **Plugins**.
+
+TikTok se sirve mediante el plugin **Tikstractormf** en lugar de gallery-dl.
+Actívalo desde el menú **Plugins**; sin él las superficies de TikTok quedan
+ocultas.
 
 ## A dónde ir ahora
 

@@ -33,7 +33,7 @@ from upstream.
 | Network | Content kinds |
 |---|---|
 | Instagram | All · Posts · Reels · Highlights · Stories · Profile |
-| TikTok | All · Videos · Photos · Profile |
+| TikTok | All · Videos · Photos · Stories · Profile |
 | Twitter/X | All · Media · Profile |
 | VSCO | All · Media · Profile |
 | Threads | All · Photos · Videos · Profile |
@@ -41,6 +41,9 @@ from upstream.
 
 Threads is served by an optional plugin rather than gallery-dl. Enable it from
 the **Plugins** menu.
+
+TikTok is served by the **Tikstractormf** plugin rather than gallery-dl. Enable
+it from the **Plugins** menu; without it TikTok surfaces stay hidden.
 
 ## Where to go next
 

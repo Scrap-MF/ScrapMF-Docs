@@ -36,8 +36,13 @@ Distinguishes **Posts**, **Albums** and **Videos**; handles profile URLs and
 
 ## <img src={useBaseUrl('/img/networks/tiktok.svg')} alt="TikTok" width="24" style={{verticalAlign:"middle",marginRight:"8px"}} /> TikTok
 
-Standard single-pass scrape; TikTok reports posts lost to JavaScript
-challenges so you know when to refresh the browser session.
+TikTok is served by the **Tikstractormf** plugin rather than gallery-dl.
+Enable it from **Plugins → Tikstractormf**; without it TikTok surfaces stay
+hidden.
+
+Content kinds: `All · Videos · Photos · Stories · Profile`. TikTok reports
+posts lost to JavaScript challenges so you know when to refresh the browser
+session.
 
 ## <img src={useBaseUrl('/img/networks/vsco.svg')} alt="VSCO" width="24" style={{verticalAlign:"middle",marginRight:"8px"}} /> VSCO
 

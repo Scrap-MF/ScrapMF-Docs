@@ -8,10 +8,12 @@ sidebar_label: "🔌 Descripción general"
 que scrapmf puede instalar en su propio entorno gestionado (nunca tu Python del
 sistema).
 
-El registro tiene actualmente dos plugins:
+El registro tiene actualmente tres plugins:
 
 - **[Threads (ThreadstractorMF)](./threads)** — un backend para cuentas de
   Threads.com / Threads.net.
+- **[TikTok (Tikstractormf)](./tiktok)** — un backend para cuentas de TikTok,
+  incluyendo **Stories** cuando está habilitado.
 - **[Termux MediaScan](./termux-scan)** — indexa las descargas terminadas en
   la Gallery de Android en Termux.
 
