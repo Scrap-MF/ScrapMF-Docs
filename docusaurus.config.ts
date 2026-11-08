@@ -13,7 +13,18 @@ const SITE_URL = 'https://Scrap-MF.github.io';
 const config: Config = {
   title: 'ScrapMF',
   tagline: 'Safe, interactive archiver for social media galleries',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon/favicon.ico',
+  headTags: [
+    {tagName: 'link', attributes: {rel: 'icon', type: 'image/png', sizes: '16x16', href: 'img/favicon/favicon-16x16.png'}},
+    {tagName: 'link', attributes: {rel: 'icon', type: 'image/png', sizes: '32x32', href: 'img/favicon/favicon-32x32.png'}},
+    {tagName: 'link', attributes: {rel: 'icon', type: 'image/png', sizes: '48x48', href: 'img/favicon/favicon-48x48.png'}},
+    {tagName: 'link', attributes: {rel: 'icon', type: 'image/png', sizes: '64x64', href: 'img/favicon/favicon-64x64.png'}},
+    {tagName: 'link', attributes: {rel: 'icon', type: 'image/png', sizes: '128x128', href: 'img/favicon/favicon-128x128.png'}},
+    {tagName: 'link', attributes: {rel: 'icon', type: 'image/png', sizes: '192x192', href: 'img/favicon/favicon-192x192.png'}},
+    {tagName: 'link', attributes: {rel: 'icon', type: 'image/png', sizes: '256x256', href: 'img/favicon/favicon-256x256.png'}},
+    {tagName: 'link', attributes: {rel: 'icon', type: 'image/png', sizes: '512x512', href: 'img/favicon/favicon-512x512.png'}},
+    {tagName: 'link', attributes: {rel: 'apple-touch-icon', sizes: '180x180', href: 'img/favicon/apple-touch-icon.png'}},
+  ],
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
