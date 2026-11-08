@@ -32,6 +32,20 @@ cargo install --path .
 
 The binary lands in `~/.cargo/bin`.
 
+## With Cargo
+
+Requires Rust 1.88+ (and a C compiler for the bundled SQLite):
+
+```bash
+cargo install scrapmf                  # from crates.io (builds from source)
+cargo binstall scrapmf                 # prebuilt binary
+cargo install --git https://github.com/Scrap-MF/ScrapMF-Rust-CLI  # latest main
+cargo install --path .                 # from this repo
+```
+
+On Debian/Ubuntu install `build-essential`, on Fedora `gcc`, on macOS
+`xcode-select --install`.
+
 ## Windows
 
 scrapmf has no native Windows binary. Install it inside WSL using the Linux
