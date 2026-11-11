@@ -9,10 +9,14 @@ directory `0700` — they are live account sessions.
 Interactive: **Configuration → Cookie profiles → Capture from browser**.
 
 - **Firefox**: reads the newest `cookies.sqlite` (from a copy — browser locks
-  don't matter). Needs the `sqlite3` CLI or `python3`.
+  don't matter). Needs the `sqlite3` CLI or `python3`. On Windows this is the
+  only browser that captures automatically, because Firefox stores cookies in
+  plain text.
 - **Chromium family** (Brave/Chrome/Chromium/Edge/Vivaldi/Opera): decrypts the
   cookie database using the desktop keyring (`secret-tool`), falling back to
-  the legacy `"peanuts"` password and KWallet.
+  the legacy `"peanuts"` password and KWallet. On Windows this works for
+  Chrome/Brave older than 127; version 127 and newer use app-bound encryption
+  that scrapmf cannot unlock. Use Firefox or manual import for those.
 
 Each profile embeds its origin as a comment line, so **Refresh** can re-capture
 it later with one click.
@@ -21,7 +25,9 @@ it later with one click.
 
 Paste a Netscape `cookies.txt` you exported from a browser (for example with
 the *Get cookies.txt LOCALLY* extension, or the companion **ElDevoraCucas**
-extension on Android) and scrapmf validates and stores it for you.
+extension on Android) and scrapmf validates and stores it for you. This is the
+reliable path on Windows for Chrome and Brave 127+, whose app-bound encryption
+blocks automatic capture.
 
 On Android/Termux, use the **ElDevoraCucas** Firefox extension to export
 `cookies.txt` and follow the [Firefox extension](./firefox-extension) guide.

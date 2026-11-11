@@ -48,8 +48,16 @@ On Debian/Ubuntu install `build-essential`, on Fedora `gcc`, on macOS
 
 ## Windows
 
-scrapmf has no native Windows binary. Install it inside WSL using the Linux
-one-liner above; from there the rest of this guide applies unchanged.
+scrapmf ships a native Windows build (MSVC, static CRT). Download the `.zip`
+from the latest release, or run:
+
+```powershell
+cargo install scrapmf
+cargo binstall scrapmf
+```
+
+WSL still works if you prefer the Linux build. On Windows, Firefox cookies
+read directly; Chrome and Brave 127+ need manual import (see cookie profiles).
 
 ## Requirements
 

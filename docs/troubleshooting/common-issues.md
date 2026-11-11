@@ -1,5 +1,13 @@
 # Common issues
 
+## Windows: "no cookies could be decrypted" for Chrome or Brave
+
+Chrome and Brave 127 and newer encrypt cookies with app-bound encryption. scrapmf
+cannot unlock that key from outside the browser, so automatic capture fails with
+"AES-256-GCM authentication failed". Use Firefox (captures automatically on
+Windows) or import a Netscape `cookies.txt` exported with *Get cookies.txt
+LOCALLY*.
+
 Symptoms, causes and fixes for the most frequent scrapmf failures.
 
 ## "gallery-dl backend is not installed"

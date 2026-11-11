@@ -56,6 +56,8 @@ builds. One route works today:
 1. Open `about:config` and set `xpinstall.signatures.required` to `false`.
 2. Copy `ElDevoraCucasMF.xpi` to your phone the normal way (USB cable, Google
    Drive, email, etc.) into a folder you can reach, such as `Download/`.
+   (With `adb`: `adb push ElDevoraCucasMF.xpi /mnt/sdcard/` and then open
+   `file:///mnt/sdcard/` in Firefox.)
 3. In Firefox, open that folder and tap `ElDevoraCucasMF.xpi` (or use the
    file manager and choose Firefox as the app to open it).
 4. Accept the blocked add-on warning, then the unverified warning.
